@@ -35,8 +35,7 @@ body {
 
 h1, h2 {
   font-family: var(--young-serif);
-  padding-left: 20px;
-  padding: 10px;
+  padding-left: 30px;
 }
 
 h2 {
@@ -45,21 +44,22 @@ h2 {
 
 h3 {
   color: var(--rose800);
-  padding: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 main {
   background-color: var(--white);
   border-radius: 10px;
-  width: 625px;
+  width: 660px;
   margin: 70px 0px;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 img {
     border-radius: 10px;
-    width: 570px;
-    margin: 20px 0px;
+    width: 600px;
+    margin: 30px 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,6 +68,29 @@ img {
 ol, ul {
   margin: 30px;
 }
+
+li {
+    padding: 5px;
+    margin-left: 37px;
+}
+
+li::marker {
+  color: var(--brown800);
+  font-weight: bold;
+}
+
+p {
+ padding: 20px 0px 0px 30px;
+}
+
+.numbers li {
+  margin-left: 20px;
+}
+
+.unordered-list {
+  margin-left: 20px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
