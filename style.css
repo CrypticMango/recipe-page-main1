@@ -103,10 +103,6 @@ th {
   padding-top: 10px;
 }
 
-.description {
-  
-}
-
 .prep {
   background-color: var(--rose50);
   margin-top: 30px;
@@ -115,6 +111,7 @@ th {
 
 .numbers li {
   margin: 0px;
+  padding-bottom: 10px;
 }
 
 .unordered-list {
