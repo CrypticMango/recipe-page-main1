@@ -142,4 +142,10 @@ th {
   justify-content: center;
 }
 
+@media (max-width: 375px) {
+  main {
+    max-width: 375px;
+  }
+}
+
 /* remember to style for mobile devices. desktop 1440px. mobile 375px.*/
