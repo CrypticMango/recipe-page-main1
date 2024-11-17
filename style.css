@@ -35,7 +35,7 @@ body {
 
 h1, h2 {
   font-family: var(--young-serif);
-  padding-left: 30px;
+  margin-top: 15px;
 }
 
 h2 {
@@ -46,23 +46,26 @@ h3 {
   color: var(--rose800);
   padding-top: 50px;
   padding-left: 50px;
+  padding-top: 0px;
 }
 
 main {
   background-color: var(--white);
   border-radius: 10px;
-  width: 660px;
+  width: 625px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   margin: 70px 0px;
-  padding: 0px 20px;
+  padding: 40px;
 }
 
 img {
     border-radius: 10px;
-    width: 600px;
-    margin: 30px 0px;
+    width: 620px;
+    margin: 0px 0px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 ol, ul {
@@ -70,8 +73,8 @@ ol, ul {
 }
 
 li {
-    padding: 5px;
-    margin-left: 37px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 li::marker {
@@ -80,23 +83,66 @@ li::marker {
 }
 
 p {
- padding: 20px 0px 0px 30px;
+  padding-top: 20px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 500px;
+text-align: left;
+margin-top: 30px;
+margin-left: 30px;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.description {
+  
+}
+
+.prep {
+  background-color: var(--rose50);
+  margin-top: 30px;
+  padding-top: 25px;
 }
 
 .numbers li {
-  margin-left: 20px;
+  margin: 0px;
 }
 
 .unordered-list {
-  margin-left: 20px;
+  margin: 0px;
+}
+
+.table-words {
+  font-weight: normal;
+}
+
+.table-numbers {
+  color: var(--rose800);
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 14px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--rose800);
+} 
+
+.fa-brands {
+  color: var(--rose800);
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 /* remember to style for mobile devices. desktop 1440px. mobile 375px.*/
