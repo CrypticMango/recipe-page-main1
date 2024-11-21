@@ -108,6 +108,7 @@ th {
   background-color: var(--rose50);
   margin-top: 30px;
   padding-top: 25px;
+  border-radius: 10px;
 }
 
 .numbers li {
@@ -151,9 +152,24 @@ th {
 
   main {
     max-width: 375px;
+    margin: 0px;
+    padding: 0px;
   }
 
   img {
+    width: 375px;
+    border-radius: 0px;
+  }
+
+  h1 {
+    padding-left: 25px;
+  }
+
+  table {
+    width: 250px;
+  }
+
+  .prep {
     width: 375px;
   }
 }
