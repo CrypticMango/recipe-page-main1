@@ -195,8 +195,9 @@ th {
   }
 
   table {
-    width: 300px;
+    width: 320px;
     padding-left: 35px;
+    padding-right: 20px;
     margin-bottom: 35px;
   }
 
@@ -214,8 +215,8 @@ th {
   }
 
   .prep {
-    width: 300px;
-    margin: 20px;
+    width: 320px;
+    padding-right: 30px;
   }
 
   .nutrition {
